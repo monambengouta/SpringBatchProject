@@ -28,3 +28,5 @@ run button in Intellij
 ```
 ##SpringBatch Issues
 If some table doesn't created when you run project you should execute `batch.sql` from project `ressources` in your `SQLServer` **_Just copy the code in console_**
+
+To connect to swagger just click [SwagerUrl](http://localhost:8089/SpringMVC/swagger-ui/index.html)
