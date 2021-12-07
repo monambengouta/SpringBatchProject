@@ -7,5 +7,6 @@ public interface IStockService {
 
 
 	/*toDo 8*/
+     void saveAllStock(List<Stock> stocks);
 
 }

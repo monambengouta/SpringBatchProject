@@ -17,6 +17,7 @@ public class Scheduler {
      *  grace au batch runner*/
    
     /*toDo6*/
+    @Scheduled(fixedRate = 300000)
     public void perform() throws Exception {
         log.info("Batch programmé pour tourner toutes les 5 minutes");
         batchLauncher.run();

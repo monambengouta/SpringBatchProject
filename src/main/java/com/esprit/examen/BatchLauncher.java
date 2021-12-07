@@ -16,10 +16,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class BatchLauncher {
 
-	
+	@Autowired
 	private JobLauncher jobLauncher;
 
 	/*toDo4*/
+	@Autowired
 	private Job job;
 
 	/*2. Lancer le job lancher */

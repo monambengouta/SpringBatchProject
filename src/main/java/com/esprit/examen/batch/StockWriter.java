@@ -17,7 +17,7 @@ public class StockWriter implements ItemWriter<Stock> {
     /* écrire nos données dans la base de données*/
     public void write(List<? extends Stock> stocks) {
             log.info("Enregistrement des lignes stocks dans la base de données", stocks);
-            /*toDo 10*/
+            stockService.saveAllStock((List<Stock>) stocks);
             
     }
 }
